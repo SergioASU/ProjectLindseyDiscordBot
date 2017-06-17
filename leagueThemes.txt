@@ -1,0 +1,505 @@
+Arcade 9
+Arcade Ahri
+Battle Boss Blitzcrank
+Arcade Corki
+Arcade Ezreal
+Arcade Hecarim
+Arcade Miss Fortune
+Arcade Riven
+Arcade Sona
+Final Boss Veigar
+Pool Party 13
+Pool Party Mundo
+Pool Party Draven
+Pool Party Fora
+Pool Party Graves 
+Pool Party Lee Sin
+Pool Party Leona
+Pool Party Lulu
+Pool Party Miss Fortune
+Pool Party Rek’Sai
+Pool Party Renekton
+Pool Party Taric
+Pool Party Zac
+Pool Party Ziggs
+Western 8
+Longhorn Alistar
+Sheriff Caityln
+Desperada Cassiopeia
+Bandito Fiddlesticks
+High Noon Jhin
+Cowgirl Miss Fortune
+High Noon Twisted Fate
+High Noon Yasuo
+PROJECT: 7
+PROJECT: Yasuo
+PROJECT: Zed
+PROJECT: Ekko
+PROJECT: Katarina
+PROJECT: Leona
+PROJECT: Lucian
+PROJECT: Master Yi
+Blood Moon 13
+Blood Moon Akali
+Blood Moon Diana
+Blood Moon Elise
+Blood Moon Jhin
+Blood Moon Kalista
+Blood Moon Kennen
+Blood Moon Shen
+Blood Moon Talon
+Blood Moon Thresh
+Blood Moon Twisted Fate
+Blood Moon Yasuo
+Blood Moon Zilean
+Blood Moon Shen
+School 6
+Academy Ahri
+Academy Darius
+Academy Ekko
+Headmistress Fiora
+Professor Ryze
+Academy Vladmimir
+Police 11
+Riot Blitzcrank
+Officer Caitlyn
+Riot Graves
+Riot Kayle
+Riot K-9 Nasus
+Riot Squad Singed
+Constable Trundle
+Officer Vi
+Captain Volibear
+Secret Agent Xin Zhao
+Secret Agent Miss Fortune
+Bird 6
+Xayah
+Rakan
+Anivia
+Quinn
+Swain
+Azir
+Corporate 5
+Definitely Not Blitzcrank
+Corporate Mundo
+Gentleman Cho’gath
+Gentleman Gnar
+Gragas, Esq
+Desert 13
+Pharaoh Amumu
+Sandstorm Ekko
+Risen Fiddlesticks
+Desert Trooper Saren
+Sandstorm Katarina
+Guardian of the Sands Kha’Zix
+Djinn Malzahar
+Guardian of the Sands Skarner
+Sandscourge Skarner
+Guardian of the Sands Rammus
+Guardian of the Sands Xerath
+Shurima Desert Zilean
+Azir
+Ocean 12
+Atlantean Fizz
+Atlantean Syndra
+Siren Cassiopeia
+Loch Ness Cho’gath
+Deep One Kassadin
+Deep Sea Kog’Maw
+Deep Sea Nami
+Deep Terror Thresh
+Coral Reef Malphite
+Giant Enemy Crabgot
+Scuba Gragas
+Abyssal Nautilus
+Pirate 13
+Sea Hunter Aatrox
+Fiddle Me Timbers
+Captain Gangplank
+Captain Fortune
+Rogue Admiral Garen
+Cutthroat Graves
+Bilgewater Katarina
+Bilgerat Rumble
+Corsair Quinn
+Pirate Ryze
+Bilgewater Swain
+Buccaneer Tristana 
+Cutpurse Twisted Fate
+Alice In Wonderland 6
+Ace of Spades Ezreal
+King of Clubs Mordekaiser
+Jack of Hearts Twisted Fate
+Queen of Diamonds Syndra
+Annie in Wonderland
+Madhatter Shaco
+Star Guardian 5
+Star Guardian Janna 
+Star Guardian Jinx
+Star Guardian Lulu
+Star Guardian Lux
+Star Guardian Poppy
+Space 17
+Super Galaxy Fizz
+Super Galaxy Kindred
+Super Galaxy Rumble
+Super Galaxy Shyvana
+Star Guardian Janna 
+Star Guardian Jinx
+Star Guardian Lulu
+Star Guardian Lux
+Star Guardian Poppy
+Cosmic Blade Master Yi
+Cosmic Dawn Rakan
+Cosmic Dusk Xayah
+Cosmic Reaver Kassadin
+Dark Star Kha’Zix
+Dark Star Thresh
+Dark Star Varus
+Dark Star Orianna
+Battlecast 7
+Creator Victor
+Battlecast Prime Cho’gath
+Battlecast Urgot
+Battlecast Vel’koz
+Battlecast Xerath
+Battlecast Kog’Maw
+Battlecast Alpha Skarner
+Valentines Day 8
+Heartseeker Vayne
+Heartseeker Ashe
+Sweetheart Annie
+Heartseeker Varus
+Heartseeker Orianna
+Sweetheart Sona
+Heartseeker Lucian
+Heartseeker Quinn
+Cooking 5
+Sashimi Akali
+Butcher Olaf
+Barbecue Leona
+Baker Pantheon
+Master Chef Tahm Kench
+Fighting 9
+Boom Boom Blitzcrank
+El Tigre Braum
+El Macho Mundo
+El Leon Gnar
+Knockout Lee Sin
+El Rayo Volibear
+Black Belt Udyr
+Karate Kennen
+Muay Thai Lee Sin
+Winter Games 8
+Curling Veigar
+Ice Toboggan Corki
+Team Spirit Anivia
+The Mighty Jax
+Union Jack Fiddlesticks
+Vancouver Amumu
+Whistler Village Twitch
+Festival Kassadin
+Sports 11
+Lil’Slugger Trundle
+Red Card Twisted Fate
+Goalkeeper Maokai
+Striker Lucian
+Superfan Gragas
+Sweeper Alistar
+Dunkmaster Darius
+Red Card Katarina
+Striker Ezreal
+Goalkeeper Blitzcrank
+All-Star Akali
+SKT T1 17
+SKT T1 Jax
+SKT T1 Lee Sin
+SKT T1 Vayne
+SKT T1 Zed
+SKT T1 Zyra
+SKT T1 Alistar
+SKT T1 Azir
+SKT T1 Elise
+SKT T1 Kalista
+SKT T1 Renekton
+SKT T1 Ryze
+SKT T1 Ekko
+SKT T1 Jhin
+SKT T1 Nami
+SKT T1 Olaf
+SKT T1 Syndra
+SKT T1 Zac
+Demacia 12
+Garen
+Sona
+Lux
+Jarvan IV
+Lucian
+Fiora
+Poppy
+Quinn
+Shyvana
+Vayne
+Xin Zhao
+Galio
+Zaun 10
+Jinx
+Ekko
+Twitch
+Blitzcrank
+Dr. Mundo
+Janna 
+Singed
+Viktor
+Warwick
+Zac
+Piltover 8
+Camille
+Caitlyn
+Ezreal
+Jayce
+Orianna
+Vi
+Ziggs
+Heimerdinger
+Shadow Isles 9
+Hecarim
+Karthus
+Thresh
+Kalista
+Mordekaiser
+Yorick
+Maokai
+Elise
+Evelynn
+Mount Targon 5
+Leona
+Pantheon
+Aurelion Sol
+Taric
+Diana
+Shurima 9
+Amumu
+Azir
+Nasus
+Rammus
+Renekton
+Sivir
+Skarner
+Taliyah
+Xerath
+Bilgewater 6
+Gangplank
+Graves
+Illaoi
+Miss Fortune
+Nautilus
+Twisted Fate
+Ionia 15
+Ahri
+Akali
+Irelia
+Jhin
+Yasuo
+Karma
+Kennen
+Lee Sin
+Master Yi
+Shen
+Soraka
+Syndra
+Varus
+Zed
+Wukong
+Freljord 11
+Ashe
+Lissandra
+Sejuani
+Tryndamere
+Braum
+Nunu
+Olaf
+Anivia
+Trundle
+Udyr
+Volibear
+Noxus 12
+Cassiopeia
+Darius
+Draven
+Katarina
+Kled
+Leblanc
+Riven
+Sion
+Swain
+Talon
+Urgot
+Vladimir
+Void 7
+Cho’Gath
+Kassadin
+Kha’Zix
+Kog’Maw
+Malzahar
+Rek’Sai
+Vel’Koz
+Yordles 13
+Veigar
+Teemo
+Tristana
+Rumble
+Lulu
+Corki
+Heimerdinger
+Kennen
+Kled
+Gnar
+Poppy
+Ziggs
+Amumu
+Dragon 11
+Aurelion Sol
+Shyvana
+Dragon Sorceress Zyra
+Dragonslayer Xin Zhao
+Dragonslayer Vayne
+Dragonslayer Jarvan IV
+Dragonslayer Braum
+Dragonslayer Pantheon
+Dragon Knight Mordekaiser
+Dragon Trainer Tristana
+Dragon Trainer Lulu
+Fire 16
+Brand
+Annie
+Infernal Alistar
+Infernal Diana
+Infernal Nasus
+Wildfire Zyra
+Firefang Warwick
+Volcanic Wukong
+Phoenix Quinn
+Charred Maokai
+Obsidian Malphite
+Foxfire Ahri
+Molten Rammus
+Shadowfire Kindred
+Scorched Earth Xerath
+Scorched Earth Renekton
+Lord 8
+Ashen Lord Aurelion Sol
+Gravelord Azir
+Lord Darius
+Warlord Shen
+Thunder Lord Volibear
+Blood Lord Vladimir
+Overlord Malzahr
+Lord Mordekaiser
+Warring Kingdoms 8
+Warring Kingdoms Azir
+Warring Kingdoms Garen
+Warring Kingdoms Jarvan IV
+Warring Kingdoms Katarina
+Warring Kingdoms Nidalee
+Warring Kingdoms Tryndamere
+Warring Kingdoms Vi
+Warring Kingdoms Xin Zhao
+Biker Gang 6
+Vandal Brand
+Vandal Jax
+Vandal Twitch
+Vandal Vladimir
+Vandal Gragas
+Road Warrior Miss Fortune
+Commando 5
+Commando Xin Zhao
+Commando Lux
+Commando Jarvan IV
+Commando Garen
+Commando Galio
+Spectral 11
+Soul Reaver Draven
+Spectral Fiddlesticks
+Spooky Gangplank
+Reaper Hecarim
+Reaper Soraka
+Phantom Karthus
+Ghost Bride Morgana
+Haunting Nocturne
+Spirit Guard Udyr
+Soulstealer Vayne
+Soulstealer Vladimir
+Halloween 20
+Bewitching Tristana
+Little Devil Teemo
+Bewitching Morgana
+Slayer Jinx
+Slayer Pantheon
+Zombie Nunu
+Haunted Zyra
+Zombie Brand
+Haunting Nocturne
+Bewitching Nidalee
+FrankenTibbers
+Nosferatu Vladimir
+Zombie Ryze
+Pumpkinhead Fiddlesticks
+Underworld Wukong
+Underworld Twisted Fate
+Reaper Soraka
+Headless Hecarim
+Haunted Maokai
+GhostBride Morgana
+Pentakill 5
+Pentakill Yorick
+Pentakill Sona
+Pentakill Olaf
+Pentakill Mordekaiser
+Pentakill Karthus
+Mad Science 6
+Blast Zone Heimerdinger
+Mad Scientist Singed
+Prototype Viktor
+Mad Scientist Ziggs
+Time Machine Zilean
+Chemtech Tryndamere
+Snow Down 30
+Snow Bunny Nidalee
+Happy Elf Teemo
+Workshop Nunu
+Old Saint Zilean
+Earnest Elf Tristana
+Santa Gragas
+Reinder Kog’Maw
+Silent Night Sona
+Nutcracko
+Re-Gifted Amumu
+Candy Cane Miss Fortune
+Festive Maokai
+Snowmerdinger
+Mistletoe Leblanc
+Slay Belle Katarina
+Bad Santa Veigar
+Snow Day Ziggs
+Dark Candy Fiddlesticks
+Winter Wonder Lulu
+Snow Day Singed
+Snowstorm Sivir
+Snow Day Malzahar
+Winter Wonder Orianna
+Poro Rider Sejuani
+Snow Day Bard
+Snow Day Gnar
+Snow Day Syndra
+Santa Braum
+Snow Day Graves
+Winter Wonder Karma
+Toy 7
+Sewn Chaos Orianna
+Dino Gnar
+Toy Soldier Gangplank
+Nutcracko
+Ragdoll Poppy
+Renektoy
+Super Kennen
