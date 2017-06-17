@@ -35,21 +35,30 @@ async def on_ready():
 
 @client.event 
 async def on_message(message):
+
+    #Exits the bot and logs it out of Discord
     if message.content.startswith('!dismiss'):
         await client.send_message(message.channel, 'Thank you master. Goodbye')
         client.logout()
         sys.exit(0)
 
+    #Finds rank of summoner and prints out their information
     elif message.content.startswith('!rank'):
-        summonerName = message.content[6:]
-        summonerName = summonerName.lower()
+
+        #Parses summoner name from the discord message and makes it lowercase
+        summonerName = message.content[6:].lower()
+
+        # Requests summoner informaiton from riot based on summoner name. This is needed to get the id of the summoner to get ranked info
         initialResponse = requests.get("https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/" + summonerName + "?api_key=" + APIKey)
-        data = initialResponse.json()
-        summonerID = str(data[summonerName]['id'])
-        print(summonerID)
+
+        #Turn data into json format and get summoner id from it
+        initialData = initialResponse.json()
+        summonerID = str(initialData[summonerName]['id'])
+
+        #Request ranked info from riot based on summoner id
         rankedRequest = requests.get("https://na1.api.riotgames.com/lol/league/v3/positions/by-summoner/" + summonerID + "?api_key=" + APIKey)
+        #Turn ranked data into json format and get information from it
         rankedData = rankedRequest.json()
-        print(rankedData)
         leagueName = rankedData[0]['leagueName']
         tier = rankedData[0]['tier']
         queueType = rankedData[0]['queueType']
@@ -59,6 +68,7 @@ async def on_message(message):
         losses = str(rankedData[0]['losses'])
         name = rankedData[0]['playerOrTeamName']
 
+        #Setup bot's response message based on the information and send it
         discordResponse = name + " is in " + tier + " " + rank + " " + leaguePoints + "lp " + "with " + wins + " wins and " + losses + " losses"
         await client.send_message(message.channel,discordResponse)
 
