@@ -1,6 +1,6 @@
 #Project Lindsey Discord Bot Alpha v 1.3
 #Author: Sergio Corral
-
+###########################################
 import discord
 import asyncio
 import sys, traceback
