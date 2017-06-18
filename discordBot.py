@@ -93,8 +93,6 @@ async def on_message(message):
                     lastSpaceIndex = index
                 index += 1
             theme = line[0:lastSpaceIndex]
-            numberOfSkins = int(line[lastSpaceIndex:])
-            entry = []
             entry.append(theme)
             print(theme)
             print(numberOfSkins)
@@ -163,6 +161,23 @@ async def on_message(message):
         for submission in subreddit.hot(limit=200):
             if(randomNumber == index):
                 messageToSend = submission.url
+                break
+            index += 1
+        await client.send_message(message.channel,messageToSend)
+
+    elif message.content.startswith('!showerthought'):
+
+        reddit = reddit = praw.Reddit(client_id = redditClientID, client_secret= redditClientSecret,user_agent= redditUserAgent)
+
+        subreddit = reddit.subreddit('Showerthoughts')
+
+        randomNumber = random.randint(0,200)
+
+        index = 0
+        messageToSend = ""
+        for submission in subreddit.hot(limit=200):
+            if(randomNumber == index):
+                messageToSend = submission.title
                 break
             index += 1
         await client.send_message(message.channel,messageToSend)
