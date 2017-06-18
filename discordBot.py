@@ -42,6 +42,10 @@ async def on_message(message):
         client.logout()
         sys.exit(0)
 
+    elif message.content.startswith('!botinfo'):
+        messageToSend = "Project Lindsey Discord Bot\nCreated by Sergio Corral\nWritten in Python3\nMy code can be found at: https://github.com/SergioASU/ProjectLindseyDiscordBot\nCommands:\n\n!rank summonerName Prints rank, tier, lp, wins, and losses of given summoner.\n\n!themes Prints all league skin/team themes provided by Tasha.\n\n!randomtheme Prints a random theme and their respective skins/champions.\n\n!meme Posts a random meme"
+        await client.send_message(message.channel, messageToSend)
+
     #Finds rank of summoner and prints out their information
     elif message.content.startswith('!rank'):
 
@@ -71,7 +75,8 @@ async def on_message(message):
         #Setup bot's response message based on the information and send it
         discordResponse = name + " is in " + tier + " " + rank + " " + leaguePoints + "lp " + "with " + wins + " wins and " + losses + " losses"
         await client.send_message(message.channel,discordResponse)
-
+    
+    #If message starts with !themes, prints all themes found in text file
     elif message.content.startswith('!themes'):
         textFile = open("leagueThemes.txt", "r")
         messageToSend = ""
