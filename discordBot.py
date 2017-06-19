@@ -1,6 +1,7 @@
 #Project Lindsey Discord Bot Alpha v 1.3
 #Author: Sergio Corral
 ###########################################
+from twython import Twython
 import discord
 import asyncio
 import sys, traceback
@@ -15,13 +16,23 @@ redditClientIdFile = open(os.path.join(os.pardir, "RedditClientID.txt"), "r")
 redditClientSecretFile = open(os.path.join(os.pardir, "RedditClientSecret.txt"), "r") 
 redditUserAgentFile = open(os.path.join(os.pardir, "RedditUserAgent.txt"), "r")
 discordCodeFile = open(os.path.join(os.pardir, "DiscordCode.txt"), "r")
+twitterAppKeyFile = open(os.path.join(os.pardir, "TwitterAppKey.txt"), "r")
+twitterAppSecretFile = open(os.path.join(os.pardir, "TwitterAppSecret.txt"), "r")
+twitterAuth1File = open(os.path.join(os.pardir, "TwitterAuth1.txt"), "r")
+twitterAuth2File = open(os.path.join(os.pardir, "TwitterAuth2.txt"), "r")
+
 
 APIKey = riotAPIFile.readline()
 redditClientID = redditClientIdFile.readline()
 redditClientSecret = redditClientSecretFile.readline()
 redditUserAgent = redditUserAgentFile.readline()
 discordCode = discordCodeFile.readline()
+twitterAppKey = twitterAppKeyFile.readline()
+twitterAppSecret = twitterAppSecretFile.readline()
+twitterAuth1 = twitterAuth1File.readline()
+twitterAuth2 = twitterAuth2File.readline()
 
+twitter = Twython(twitterAppKey,twitterAppSecret,twitterAuth1,twitterAuth2)
 listOfStuff = []
 
 client = discord.Client()
@@ -43,7 +54,7 @@ async def on_message(message):
         sys.exit(0)
 
     elif message.content.startswith('!botinfo'):
-        messageToSend = "Project Lindsey Discord Bot\nCreated by Sergio Corral\nWritten in Python3\nMy code can be found at: https://github.com/SergioASU/ProjectLindseyDiscordBot\nCommands:\n\n!rank summonerName Prints rank, tier, lp, wins, and losses of given summoner.\n\n!themes Prints all league skin/team themes provided by Tasha.\n\n!randomtheme Prints a random theme and their respective skins/champions.\n\n!meme Posts a random meme"
+        messageToSend = "Project Lindsey Discord Bot\nCreated by Sergio Corral\nWritten in Python3\nMy code can be found at: https://github.com/SergioASU/ProjectLindseyDiscordBot\nCommands:\n\n!rank summonerName Prints rank, tier, lp, wins, and losses of given summoner.\n\n!themes Prints all league skin/team themes provided by Tasha.\n\n!randomtheme Prints a random theme and their respective skins/champions.\n\n!meme Posts a random meme from me_irl\n\n!showerthought Prints a random post from r/showerThoughts\n\n!woof Prints a random picture from r/woof_irl\n\n!insult Prints a random insult from r/insults\n\n!aww Prints a random picture from r/aww\n\n!news Links to a random news article from r/news\n\n"
         await client.send_message(message.channel, messageToSend)
 
     #Finds rank of summoner and prints out their information
@@ -181,6 +192,97 @@ async def on_message(message):
                 break
             index += 1
         await client.send_message(message.channel,messageToSend)
+
+    elif message.content.startswith('!woof'):
+
+        reddit = reddit = praw.Reddit(client_id = redditClientID, client_secret= redditClientSecret,user_agent= redditUserAgent)
+
+        subreddit = reddit.subreddit('woof_irl')
+
+        randomNumber = random.randint(0,200)
+
+        index = 0
+        messageToSend = ""
+        for submission in subreddit.hot(limit=200):
+            if(randomNumber == index):
+                messageToSend = submission.url
+                break
+            index += 1
+        await client.send_message(message.channel,messageToSend)
+
+    elif message.content.startswith('!insult'):
+
+        reddit = reddit = praw.Reddit(client_id = redditClientID, client_secret= redditClientSecret,user_agent= redditUserAgent)
+
+        subreddit = reddit.subreddit('insults')
+
+        randomNumber = random.randint(0,200)
+
+        index = 0
+        messageToSend = ""
+        for submission in subreddit.hot(limit=200):
+            if(randomNumber == index):
+                messageToSend = submission.title + " " + submission.selftext
+                break
+            index += 1
+        await client.send_message(message.channel,messageToSend)
+
+    elif message.content.startswith('!aww'):
+
+        reddit = reddit = praw.Reddit(client_id = redditClientID, client_secret= redditClientSecret,user_agent= redditUserAgent)
+
+        subreddit = reddit.subreddit('aww')
+
+        randomNumber = random.randint(0,200)
+
+        index = 0
+        messageToSend = ""
+        for submission in subreddit.hot(limit=200):
+            if(randomNumber == index):
+                messageToSend = submission.title + "\n" + submission.url
+                break
+            index += 1
+        await client.send_message(message.channel,messageToSend)
+
+    elif message.content.startswith('!news'):
+
+        reddit = reddit = praw.Reddit(client_id = redditClientID, client_secret= redditClientSecret,user_agent= redditUserAgent)
+
+        subreddit = reddit.subreddit('news')
+
+        randomNumber = random.randint(0,200)
+
+        index = 0
+        messageToSend = ""
+        for submission in subreddit.hot(limit=200):
+            if(randomNumber == index):
+                messageToSend = submission.title + "\n" + submission.url
+                break
+            index += 1
+        await client.send_message(message.channel,messageToSend)
+
+    elif message.content.startswith('!prequelmeme'):
+
+        reddit = reddit = praw.Reddit(client_id = redditClientID, client_secret= redditClientSecret,user_agent= redditUserAgent)
+
+        subreddit = reddit.subreddit('prequelMemes')
+
+        randomNumber = random.randint(0,200)
+
+        index = 0
+        messageToSend = ""
+        for submission in subreddit.hot(limit=200):
+            if(randomNumber == index):
+                messageToSend = submission.url
+                break
+            index += 1
+        await client.send_message(message.channel,messageToSend)
+
+    elif message.content.startswith('!tweet'):
+
+        tweetToSend = message.content[7:]
+        twitter.update_status(status = tweetToSend)
+        await client.send_message(message.channel, ("I have tweeted: " + tweetToSend))
 
 client.run(discordCode)
 
