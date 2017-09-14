@@ -47,7 +47,14 @@ async def on_ready():
 @client.event 
 async def on_message(message):
 
+    theAuthor = str(message.author)
+    print(theAuthor)
     #Exits the bot and logs it out of Discord
+
+   #if theAuthor == 'Lux#4431':
+
+    #    print('same')
+     #   await client.send_message(message.channel, 'Fuck You Lux')
     if message.content.startswith('!dismiss'):
         await client.send_message(message.channel, 'Thank you master. Goodbye')
         client.logout()
@@ -283,6 +290,8 @@ async def on_message(message):
         tweetToSend = message.content[7:]
         twitter.update_status(status = tweetToSend)
         await client.send_message(message.channel, ("I have tweeted: " + tweetToSend))
+
+
 
 client.run(discordCode)
 
